@@ -1,0 +1,185 @@
+/*背景設定*/
+.body{
+ margin: 0px;
+ height:100%;
+ background: none repeat scroll 0 0 rgb(239, 239, 239);
+ color: rgba(0, 0, 0, 0.5);
+}
+
+/*標題欄*/
+#header-bar{
+height: 55px;
+padding-top: 15px;
+background: none repeat scroll  0% 0% rgb(254, 254, 254);
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.09);
+}
+
+#header-inner{
+ width: 75%;
+ padding: 0 0px;
+ margin: 0 auto;
+}
+
+#logo{
+ font-size:28px;
+ padding: 5px 0 0 0;
+ float: left;
+}
+
+#logo a{
+ color: rgb(67, 67, 67);
+ font-weight: bold;
+ text-decoration:none;
+}
+
+#signin{
+ font-size: inherit;
+ float: right;
+ padding: 5px;
+ box-shadow: inset 0 1px 1px rgba(255,255,255,0.8);
+ margin: 5px 55px 0 0;
+}
+
+#signin a{
+ color: rgb(255,255,255);
+ text-decoration:none;
+ border-radius: 2px;
+ border: 1px solid #7ea613;
+ background-image: linear-gradient(to bottom,#acd341 0,#88bd32 100%);
+ padding: 5px;
+}
+
+/*主要內容*/
+#container{
+position: relative;
+min-height:100%; /* real browsers */
+width: 75%;
+margin: 0 auto;
+padding: 10px;
+display: table;
+text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
+margin-bottom: 20px;
+}
+
+/*內容窗格*/
+.container-range{
+  display: table-row;
+}
+
+/*事件窗格*/
+.event-range{
+  display: table-cell;
+}
+
+.table{
+ display: table;
+}
+
+.login-range{
+ display: table-cell;
+}
+
+/*登入*/
+.login{
+ width: 300px;
+ background-color: #ffffff;
+ border-radius:10px;
+ border: 7px solid rgba(254,228,42,0.5);
+ padding:  3px 20px;
+}
+
+/*input*/
+.login input[type="email"], .login input[type="text"], .login input[type="password"] {
+    width: 100%;
+    height: 32px;
+    font-size: 15px;
+    direction: ltr;
+}
+
+/*input email*/
+.email-div{
+ margin: 0px 0px 1.5em;
+}
+
+.email-label{
+ font-weight: bold;
+ margin: 0px 0px 0.5em;
+ display: block
+}
+/*input password*/
+.passwd-div{
+ margin: 0px 0px 1.5em;
+}
+
+.passwd-label{
+ font-weight: bold;
+ margin: 0px 0px 0.5em;
+ display: block
+}
+
+/*事件*/
+.event{
+ display: table-row;
+ height:10%;
+ width:60%;
+ }
+
+/*頭像*/
+.avatar{
+ display: table-cell;
+ vertical-align: middle;
+}
+.middleimg{
+ width: 90px;
+ height: 90px;
+}
+
+/*對話泡泡*/
+.triangle-left {
+	width:0px;
+    height:0px;
+    border-width:10px;
+    border-style:dashed solid dashed dashed;
+    border-color:transparent rgb(254,228,42) transparent  transparent;
+    margin-top: 100%;
+}
+
+/*事件內容*/
+.msg{
+ width:300px;
+ height: 80px;
+ display: table-cell;
+ background: rgb(254,228,42);
+ font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+ text-align: left;
+ vertical-align: middle;
+ padding-left: 20px;
+ border-top-left-radius:1em;
+ border-bottom-left-radius:1em;
+}
+/*事件期限*/
+.msg_deadline{
+ width: 150px;
+ display: table-cell;
+ background: -moz-linear-gradient(top, rgb(174,42,58) , rgb(208,59,77));
+ background: -webkit-linear-gradient(top, rgb(174,42,58) , rgb(208,59,77));
+ font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+ text-align: center;
+ vertical-align: middle;
+ border-top-right-radius:1em;
+ border-bottom-right-radius:1em;
+}
+
+/*頁尾*/
+#footer{
+ margin-top: -10px; /* negative value of footer height */
+ height: 10px;
+ bottom:0; /* stick to bottom */
+ clear: both;
+ text-align:center; 
+ background: rgb(254, 254, 254);
+ color:  rgb(153, 153, 153);
+ font-size: 14px;
+ border-top: 1px solid rgb(216, 216, 216);
+ padding: 30px 15px;
+}
